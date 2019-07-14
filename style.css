@@ -1,0 +1,161 @@
+html, body{
+	background-color:black;
+	color:white;
+	margin:0px;
+	padding:0px;
+	font-family: Roboto Slab;
+	font-size:9px;
+}
+@font-face {
+	font-family: Elianto;
+	src:
+	url(font/Elianto.ttf);
+}
+@font-face {
+	font-family: Highway Gothic;
+	src:
+	url(font/Highway.ttf);
+}
+@font-face {
+	font-family: Roboto Slab;
+	src:
+	url(font/Roboto Slab.ttf);
+}
+.Container-Header{
+	background-color:#222;
+	color:darkred;
+	font-family: Elianto;
+	text-align: center;
+}
+.Nav-Container{
+	width:100%;
+	background-color:#111;
+}
+.Div-Container{
+	padding:40px 20px 20px 20px;
+	background-image:url('white.jpeg');
+}
+.Header-Text{
+	font-size:50px;
+}
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.rippleText{
+	color:white;
+	text-decoration:none;
+}
+.rippleText:hover{
+	color:black;
+	transition:1s;
+}
+.ripple:hover {
+  background: lightgray radial-gradient(circle, transparent 1%, gray 1%) center/15000%;
+  color:black;
+}
+.ripple:active {
+  background-color: white;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+
+/* Button style */
+button {
+  background-color: #111;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 0 4px #999;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+  padding: 20px;
+  text-transform: uppercase;
+}
+.Main-Container{
+	padding-top:48px;
+
+}
+.MainHeader-Content{
+	background-color:#222;
+	margin-left:600px;
+	width:50%;
+}
+.Space-Container{
+	height:50px;
+}
+.MainContent{
+	background-color:#111;
+	padding:10px;
+	font-size:20px;
+}
+.Header{
+	text-indent:10px;
+	text-align:center;
+	font-size:30px;
+	font-family: Highway Gothic;
+}
+.AsideNavBar{
+	width:30%;
+	float:left;
+	margin-left:50px;
+	background-color:#222;
+}
+.ListItems{
+	color:white;
+	text-decoration:none;
+}
+.ListItems:hover{
+	color:salmon;
+	transition:1s;
+}
+.Footer-Features{
+	width:36%;
+	float:right;
+}
+.Footer-Technology{
+	width:33%;
+	float:right;
+}
+.Footer-FAQS{
+	width:33%;
+}
+.Footer-Container{
+	margin-top:50px;
+	padding:20px;
+	padding-bottom:120px;
+	text-align:center;
+	background-color:#222;
+}
+.FooterClass{
+	background:#111;
+	padding:25px 0px 0px 0px;
+	margin:50px 0px 0px 0px;
+}
+.Footer-Text{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	display:block;
+}
+.Header1{
+	font-size:23px;
+}
+.FooterText{
+	padding:20px;
+	margin-left:-20px;
+	margin-right:-20px;
+}
+.Footer-Text:hover{
+	color:salmon;
+	transition:1s;
+	text-shadow:2px 2px 2px #000;
+}
+.list{
+	padding-left:30px;
+	background-color:#111;
+	padding-bottom:20px;
+	padding-top:20px;
+}
