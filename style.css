@@ -160,6 +160,5 @@ button {
 	padding-top:20px;
 }
 .Server-Stats {
-	left:30px
-	position:absolute;
+	text-inline:center;
 }
