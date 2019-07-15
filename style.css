@@ -75,7 +75,7 @@ button {
   text-transform: uppercase;
 }
 .Main-Container{
-	padding-top:48px;
+	padding-top:80px;
 
 }
 .MainHeader-Content{
@@ -88,7 +88,7 @@ button {
 }
 .MainContent{
 	background-color:#111;
-	padding:40px;
+	padding:10px;
 	font-size:20px;
 }
 .Header{
