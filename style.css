@@ -166,5 +166,5 @@ button {
 	border:3px outset rgb(107, 107, 107);
 }
 .ListStyles {
-	list-style:none;
+	list-style-type:none;
 }
