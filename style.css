@@ -32,7 +32,7 @@ html, body{
 	background-color:#111;
 }
 .Div-Container{
-	padding:40px 80px 20px 80px;
+	padding:40px 20px 20px 20px;
 	background-image:url('white.jpeg');
 }
 .Header-Text{
@@ -75,7 +75,7 @@ button {
   text-transform: uppercase;
 }
 .Main-Container{
-	padding-top:48px;
+	padding-top:100px;
 
 }
 .MainHeader-Content{
