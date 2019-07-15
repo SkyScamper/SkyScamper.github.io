@@ -161,4 +161,5 @@ button {
 }
 .Server-Stats {
 	left:30px
+	position:absolute;
 }
