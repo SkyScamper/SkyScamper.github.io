@@ -163,5 +163,6 @@ button {
 	color:red;
 }
 .UpdateTitles {
+	border:red;
 	border-bottom:3px ridge blue;
 }
