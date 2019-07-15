@@ -163,5 +163,5 @@ button {
 	color:red;
 }
 .UpdateTitles {
-	border-bottom:3px ridge rgb(107, 107, 107);
+	border-bottom:3px dashed rgb(107, 107, 107);
 }
