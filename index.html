@@ -97,7 +97,7 @@
 	<script>
 		$(function(){ 
   			$('.HeaderTog').click( function() {
-    			$(this).children(".toggle-wrap").toggle();
+    			$(this).parent().children().toggle();
   			});
 		});
 
