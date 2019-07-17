@@ -1,7 +1,9 @@
-var ListItems = document.getElementsByClassName("MainContent");
-var Header = document.getElementById("Header");
-console.log(Header);
-  if (x.style.display === "none") {
-    x.style.display = "block";
+function TheFunction(){
+  var Header = document.getElementById("Header");
+  if (Header.style.display === "none") {
+    Header.style.display = "block";
   } else {
-    x.style.display = "none";
+    Header.style.display = "none";
+  }
+}
+ListItems.addEventListener("click", TheFunction);
