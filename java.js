@@ -8,5 +8,4 @@ for(var i = 0; i < ListItems.length; i++){
       ListItems[i].style.display = "none";
     }
   }
-}
-ListItems.addEventListener("click", TheFunction);
+Header.addEventListener("click", TheFunction);
