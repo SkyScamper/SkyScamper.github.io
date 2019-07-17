@@ -102,6 +102,7 @@ button {
 	float:left;
 	margin-left:50px;
 	background-color:#222;
+	padding:25px;
 }
 .ListItems{
 	color:white;
