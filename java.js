@@ -1,4 +1,7 @@
 var ListItems = document.getElementsByClassName("MainContent");
-for(var i = 0; i < ListItems.length; i++){
-	console.log(ListItems[i]);
-}
+var Header = document.getElementById("Header");
+console.log(Header);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
