@@ -1,5 +1,4 @@
-function Highlighted(){
-	console.log("Hi");
+var ListItems = document.getElementsByClassName("MainContent");
+for(var i = 0; i < ListItems.length; i++){
+	console.log(i);
 }
-
-document.querySelector(".ripple").addEventListener("click", Highlighted);
