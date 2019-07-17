@@ -100,6 +100,11 @@
         	$(this).parent().nextAll('.toggle-wrap').first().toggle('slow');
     });
 });
+		$(function(){ 
+  			$('.HeaderTog').click( function() {
+    			$(this).children(".toggle-wrap").toggle();
+  			});
+		});
 
 	</script>
 	<script src="java.js"></script>
