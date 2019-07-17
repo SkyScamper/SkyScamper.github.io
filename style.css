@@ -84,7 +84,7 @@ button {
 	width:50%;
 }
 .Space-Container{
-	height:50px;
+	height:10px;
 }
 .MainContent{
 	background-color:#111;
@@ -96,6 +96,7 @@ button {
 	text-align:center;
 	font-size:30px;
 	font-family: Highway Gothic;
+	margin:10px
 }
 .AsideNavBar{
 	width:30%;
