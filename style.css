@@ -74,17 +74,10 @@ button {
   padding: 20px;
   text-transform: uppercase;
 }
-.Main-Container{
-	padding-top:10px;
-
-}
 .MainHeader-Content{
 	background-color:#222;
 	margin-left:600px;
 	width:50%;
-}
-.Space-Container{
-	height:10px;
 }
 .MainContent{
 	background-color:#111;
