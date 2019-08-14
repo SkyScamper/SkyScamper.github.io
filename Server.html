@@ -37,14 +37,14 @@
 							</div>
 						</aside>
 						<div class="MainHeader-Content">
-							<h1 class="Header"><b>Server Status</b></h1>
+							<h1 class="Header HeaderTog"><b>Server Status</b></h1>
 							<div class="MainContent Server-Stats">
 								<a href="https://minecraft-mp.com/server-s227268" target="_blank"><img src="https://minecraft-mp.com/banner-227268-3.png" width="650px" border="0"></a>
 							</div>
 						</div>
 						<div class="Space-Container"></div>
 						<div class="MainHeader-Content">
-							<h1 class="Header"><b>Updates</b></h1>
+							<h1 class="Header HeaderTog"><b>Updates</b></h1>
 							<div class="MainContent">
 								<div>
 									<h1 class="UpdateTitles">Update V.10.3</h1>
@@ -92,7 +92,7 @@
 						</div>
 						<div class="Space-Container"></div>
 						<div class="MainHeader-Content">
-							<h1 class="Header"><b>Blogging</b></h1>
+							<h1 class="Header HeaderTog"><b>Blogging</b></h1>
 							<div class="MainContent">
 								<h2>JonIcept | ~ / ~~ / 19</h2>
 								<p></p>
@@ -134,6 +134,12 @@
 			</div>
 		</footer>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+	$('.HeaderTog').click( function() {
+    		$(this).siblings().slideToggle();
+  		});
+	</script>
 	<script type="text/javascript"></script>
 </body>
 </html>
