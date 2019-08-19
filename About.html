@@ -24,10 +24,9 @@
 		</header>
 		<main class="Main-Content">
 			<div class="Main-Container">
-				<section>
 					<header class="MainHeader">
 						<aside class="AsideNavBar">
-							<h1 class="Header"><b>SideBar</b></h1>
+							<h1 class="Header HeaderTog"><b>SideBar</b></h1>
 							<div class="list">
 								<a href="index.html" class="ListItems"><h1>Home</h1></a>
 								<a href="About.html" class="ListItems"><h1>About</h1></a>
@@ -36,27 +35,26 @@
 							</div>
 						</aside>
 						<div class="MainHeader-Content">
-							<h1 class="Header"><b>Who am I?</b></h1>
+							<h1 class="Header HeaderTog"><b>Who am I?</b></h1>
 							<div class="MainContent">
 								 <p>My name is jonicept gaming, and I am a small youtuber who plays Minecraft and many other games. I also program websites, draw art, and write stories.</p>
 							</div>
 						</div>
 						<div class="Space-Container"></div>
 						<div class="MainHeader-Content">
-							<h1 class="Header"><b>Purpose of the website</b></h1>
+							<h1 class="Header HeaderTog"><b>Purpose of the website</b></h1>
 							<div class="MainContent">
 								<p>The purpose of the website is to provide a separate place for the fans of my youtube channel, or for people in general on the internet. We provide the discord preview and the chat for all users. You can watch my streams easily, just by going to the Stream page without having to go on discord. </p>
 							</div>
 						</div>
 						<div class="Space-Container"></div>
 						<div class="MainHeader-Content">
-							<h1 class="Header"><b>Contact</b></h1>
+							<h1 class="Header HeaderTog"><b>Contact</b></h1>
 							<div class="MainContent">
 								<p>You can contact me by emailing me at; <i>joniceptgaming@gmail.com</i><br>You can also DM on Twitter <b><i><a href="https://twitter.com/C0rrupt3dF1l3" class="ListItems">here</a></i></b></p>
 							</div>
 						</div>
 					</header>
-				</section>
 			</div>
 		</main>
 		<footer class="FooterClass">
@@ -88,6 +86,12 @@
 			</div>
 		</footer>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$('.HeaderTog').click( function(){
+			$(this).siblings().slideToggle();
+		});
+	</script>
 	<script type="text/javascript"></script>
 </body>
 </html>
