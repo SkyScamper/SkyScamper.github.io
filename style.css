@@ -92,7 +92,7 @@ button {
 	padding:10px;
 	font-size:20px;
 }
-MainHeaderC{
+.MainHeader-Content .MainHeaderC{
 	width:30%;
 }
 .Header{
