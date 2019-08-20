@@ -83,7 +83,6 @@ button {
   text-transform: uppercase;
 }
 .MainHeader-Content{
-	float:left;
 	background-color:#222;
 	margin-left:600px;
 	width:50%;
@@ -95,6 +94,7 @@ button {
 }
 .MainHeader-Content .MainHeaderC{
 	width:30%;
+	margin-left:-200px;
 }
 .Header{
 	text-indent:10px;
