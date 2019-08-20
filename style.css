@@ -83,6 +83,7 @@ button {
   text-transform: uppercase;
 }
 .MainHeader-Content{
+	float:left;
 	background-color:#222;
 	margin-left:600px;
 	width:50%;
