@@ -8,7 +8,6 @@ html, body{
 }
 .TwitchVideo {
 	padding:2px 0px 4px;
-	display:block;
 	width:345px;
 	font-weight:normal;
 	font-size:10px;
@@ -93,6 +92,7 @@ button {
 	font-size:20px;
 }
 .MainHeaderC{
+	clear:both;
 	background-color:#222;
 	width:25%;
 }
