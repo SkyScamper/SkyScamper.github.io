@@ -6,13 +6,6 @@ html, body{
 	font-family: Roboto Slab;
 	font-size:9px;
 }
-.TwitchVideo {
-	padding:2px 0px 4px;
-	width:345px;
-	font-weight:normal;
-	font-size:10px;
-	text-decoration:underline;
-}
 @font-face {
 	font-family: Elianto;
 	src:
