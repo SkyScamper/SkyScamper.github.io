@@ -94,7 +94,7 @@ button {
 }
 .MainHeaderC{
 	width:30%;
-	margin-left:300px;
+	float:left;
 }
 .Header{
 	text-indent:10px;
