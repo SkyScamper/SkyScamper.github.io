@@ -85,10 +85,9 @@ button {
 	font-size:20px;
 }
 .MainHeader {
-	width:100%
+	width:100%;
 }
 .MainHeaderC{
-	background-color:#222;
 	float:left;
 	width:30%;
 }
