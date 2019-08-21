@@ -91,9 +91,16 @@ button {
 	padding:10px;
 	font-size:20px;
 }
-.MainHeaderC{
+.MainHeader {
+	width:100%;
+}
+#MainHeaderC{
 	background-color:#222;
-	width:25%;
+	width:50%;
+}
+#MainHeaderC2{
+	background-color:#222;
+	width:30%;
 }
 .Header{
 	text-indent:10px;
