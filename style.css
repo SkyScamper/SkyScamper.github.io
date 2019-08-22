@@ -97,7 +97,6 @@ button {
 .MainHeaderC{
 	display:table-column;
 	background-color:#222;
-	width:30%;
 }
 .Header{
 	text-indent:10px;
