@@ -90,12 +90,10 @@ button {
 }
 .MainHeader {
 	width:100%;
-}
-#MainHeader {
-	display:table;
+	display: flex;
+  	flex-direction: row;
 }
 .MainHeaderC{
-	display:table-column;
 	background-color:#222;
 }
 .Header{
@@ -104,9 +102,6 @@ button {
 	font-size:30px;
 	font-family: Highway Gothic;
 	margin:0px
-}
-#AsideNavBar{
-	display:table-column;
 }
 .AsideNavBar{
 	width:30%;
