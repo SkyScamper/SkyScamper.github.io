@@ -94,10 +94,10 @@ button {
 	display: flex;
 }
 #Flex{
-	flex:1;
+	width:300px;
 }
 #Flex2{
-	width:300px;
+	flex:1;
 }
 .MainHeaderC{
 	background-color:#222;
