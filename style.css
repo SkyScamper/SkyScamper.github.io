@@ -94,10 +94,10 @@ button {
 	display: flex;
 }
 #Flex{
-	width:300px;
+	flex:1;
 }
 #Flex2{
-	flex:1;
+	width:200px;
 }
 .MainHeaderC{
 	clear:both;
