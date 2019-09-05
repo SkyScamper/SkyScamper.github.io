@@ -100,6 +100,7 @@ button {
 	flex:1;
 }
 .MainHeaderC{
+	clear:both;
 	background-color:#222;
 }
 .Header{
