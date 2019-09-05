@@ -90,9 +90,17 @@ button {
 .MainHeader {
 	width:100%;
 }
+.TwitchColumn {
+	display: flex;
+}
+#Flex{
+	flex:1;
+}
+#Flex2{
+	width:300px;
+}
 .MainHeaderC{
 	background-color:#222;
-	width:30%;
 }
 .Header{
 	text-indent:10px;
