@@ -38,7 +38,7 @@ html, body{
 .Header-Text{
 	font-size:50px;
 }
-.ripple {
+.ripple a {
   background-position: center;
   transition: background 0.8s;
 }
@@ -50,11 +50,11 @@ html, body{
 	color:black;
 	transition:1s;
 }
-.ripple:hover {
+.ripple a:hover {
   background: lightgray radial-gradient(circle, transparent 1%, gray 1%) center/15000%;
   color:black;
 }
-.ripple:active {
+.ripple a:active {
   background-color: white;
   background-size: 100%;
   transition: background 0s;
