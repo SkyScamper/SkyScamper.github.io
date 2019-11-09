@@ -193,6 +193,6 @@ button {
 .ListStyles {
 	list-style-type:none;
 }
-.HeaderTog2 > p {
+.HeaderTog2 > div {
 	display:none;
 }
