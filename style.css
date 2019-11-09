@@ -193,3 +193,6 @@ button {
 .ListStyles {
 	list-style-type:none;
 }
+.toggle-wrap {
+	display:none;
+}
